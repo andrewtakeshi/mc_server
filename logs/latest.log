@@ -1,0 +1,66 @@
+[11:40:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:40:18] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:18] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:18] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:40:18] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:40:18] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:18] [Worker-Main-20/INFO]: Loaded 7 recipes
+[11:40:19] [Worker-Main-20/INFO]: Loaded 1141 advancements
+[11:40:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:40:33] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:288) ~[?:?]
+	at ait.a(SourceFile:40) ~[server-1.18.2.jar:?]
+	at dkp$a.<init>(SourceFile:316) ~[server-1.18.2.jar:?]
+	at dkp.c(SourceFile:304) ~[server-1.18.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:127) ~[server-1.18.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+:99) [server-1.18.2.jar:?]
+[11:40:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:40:22] [Server thread/INFO]: Using default channel type
+[11:40:23] [Server thread/INFO]: Preparing level "world"
+[11:40:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:40:24] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[11:40:24] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[11:40:24] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[11:40:24] [Worker-Main-28/INFO]: Preparing spawn area: 0%
+[11:40:25] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[11:40:25] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[11:40:26] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[11:40:26] [Worker-Main-29/INFO]: Preparing spawn area: 4%
+[11:40:27] [Worker-Main-26/INFO]: Preparing spawn area: 7%
+[11:40:27] [Worker-Main-30/INFO]: Preparing spawn area: 10%
+[11:40:28] [Worker-Main-28/INFO]: Preparing spawn area: 37%
+[11:40:28] [Worker-Main-16/INFO]: Preparing spawn area: 71%
+[11:40:29] [Server thread/INFO]: Time elapsed: 6365 ms
+[11:40:29] [Server thread/INFO]: Done (6.496s)! For help, type "help"
+[11:43:40] [User Authenticator #1/INFO]: UUID of player TacohMann99 is 66263fb5-d84a-4643-86ac-36fa55614902
+[11:43:40] [Server thread/INFO]: TacohMann99[/192.168.1.200:62420] logged in with entity id 33 at (-570.1939176772968, 104.0, -304.55071729987964)
+[11:43:40] [Server thread/INFO]: TacohMann99 joined the game
+[11:43:47] [User Authenticator #2/INFO]: UUID of player Carmex2000 is 65fb491a-d8a2-4f46-9b6a-387c1023b735
+[11:43:47] [Server thread/INFO]: Carmex2000[/192.168.1.113:57504] logged in with entity id 280 at (-542.8835171720154, 94.0, -312.6832157360742)
+[11:43:47] [Server thread/INFO]: Carmex2000 joined the game
+[11:46:55] [Server thread/INFO]: TacohMann99 was burnt to a crisp whilst fighting Zombie
+[11:51:06] [Server thread/INFO]: Carmex2000 has made the advancement [Suit Up]
+[12:28:39] [Server thread/INFO]: Carmex2000 has made the advancement [Acquire Hardware]
+[12:36:35] [Server thread/INFO]: TacohMann99 lost connection: Disconnected
+[12:36:35] [Server thread/INFO]: TacohMann99 left the game
+[12:38:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3572ms or 71 ticks behind
+[13:04:40] [Server thread/INFO]: Carmex2000 lost connection: Disconnected
+[13:04:40] [Server thread/INFO]: Carmex2000 left the game
+[14:25:15] [Server thread/INFO]: Stopping server
+[14:25:15] [Server thread/INFO]: Saving players
+[14:25:15] [Server thread/INFO]: Saving worlds
+[14:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
